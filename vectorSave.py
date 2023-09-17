@@ -1,4 +1,4 @@
-!pip install langchain , openai ,detenv , streamlit ,PyPDF2
+
 from langchain.vectorstores import Qdrant
 from langchain.embeddings.openai import OpenAIEmbeddings
 import qdrant_client
