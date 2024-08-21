@@ -1,4 +1,4 @@
-css = '''
+css = 
 <style>
 
 .css-fg4pbf{
@@ -29,22 +29,21 @@ css = '''
   padding: 0 1.5rem;
   color: #fff;
 }
-'''
 
-bot_template = '''
+
+bot_template = 
 <div class="chat-message bot">
     <div class="avatar">
         <img src="https://scalebranding.com/wp-content/uploads/2022/02/Cute-Robot-Diver-Logo-1024x1024.png" style="max-height: 48px; max-width: 48px; border-radius: 50%; object-fit: cover;">
     </div>
     <div class="message">{{MSG}}</div>
 </div>
-'''
 
-user_template = '''
+
+user_template = 
 <div class="chat-message user">
     <div class="avatar">
         <img src="https://www.pngmart.com/files/21/Account-PNG-HD.png">
     </div>    
     <div class="message">{{MSG}}</div>
 </div>
-'''
